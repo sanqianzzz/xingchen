@@ -23,13 +23,13 @@ a:hover {color: red;}
 	width: 100%;
 }
 #header h1{
-    font-size: 25px;
+    font-size: 20px;
 	text-align: center;
 	font-family: 方正粗黑宋简体;
 	padding-bottom: 8px;
 }
 #header h2{
-    font-size: 20px;
+    font-size: 14px;
 	text-align: center;
 	font-family: 宋体;
 }
