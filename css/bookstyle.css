@@ -29,34 +29,25 @@ a:hover {color: red;}
 	padding-bottom: 8px;
 }
 #header h2{
-    font-size: 14px;
+    font-size: 20px;
 	text-align: center;
 	font-family: 宋体;
 }
-.box{
-	font-family: 方正启体简体, "Microsoft YaHei", 微软雅黑, 宋体;
-	font-size: 14pt;
-	letter-spacing: 0.25em;
-	line-height: 165%;
-	padding: 15px;
-	width: 50%;
-	margin: auto;
-}
-@media screen and (max-width:600px){
-	#newbox{
-		width: 450px;
-		margin:0 auto;
-	}
-}
-@media screen and (min-width:600px) and (max-width:960px){
-	#newbox{
-		width: 800px;
-		margin:0 auto;
-	}
-}
-@media screen and (min-width:960px){
+@media (min-width:960px){
 	#newbox{
 		width: 55%;
+		margin:0 auto;
+	}
+}
+@media (min-width:600px) and (max-width:960px){
+	#newbox{
+		width: 70%;
+		margin:0 auto;
+	}
+}
+@media (max-width:600px){
+	#newbox{
+		width: 80%;
 		margin:0 auto;
 	}
 }
