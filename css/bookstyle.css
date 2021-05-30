@@ -43,16 +43,22 @@ a:hover {color: red;}
 	margin: auto;
 }
 @media screen and (max-width:600px){
-#newbox{
-	width: 90%;
-	margin:0 auto;
+	#newbox{
+		width: 90%;
+		margin:0 auto;
+	}
 }
+@media screen and (min-width:600px) and (max-width:960px){
+	#newbox{
+		width: 75%;
+		margin:0 auto;
+	}
 }
 @media screen and (min-width:960px){
-#newbox{
-	width: 55%;
-	margin:0 auto;
-}
+	#newbox{
+		width: 55%;
+		margin:0 auto;
+	}
 }
 #newbox>p{
 	font-family: 方正启体简体, "Microsoft YaHei", 微软雅黑, 宋体;
