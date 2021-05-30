@@ -5,6 +5,20 @@
         <title>星辰书院1.2</title>
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <script type="text/javascript">
+            is_mobile();
+            function is_mobile() {
+                var ua = navigator.userAgent;
+                var url = window.location.host;
+                var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+                    isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+                    isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+                    isMobile = isIphone || isAndroid;
+                if(! isMobile){
+                    window.location.href = "m.html";
+                }
+            }
+        </script>
     </head>
     <body>
         <div id="nav">
