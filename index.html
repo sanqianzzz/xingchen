@@ -1,118 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>星辰书院1.2</title>
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="img/logo.png" type="image/x-icon">
-        <script type="text/javascript">
-            console.log(navigator.userAgent);
-			var os = function() {
-    		var ua = navigator.userAgent,
-      		isWindowsPhone = /(?:Windows Phone)/.test(ua),
-       	 	isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
-        	isAndroid = /(?:Android)/.test(ua),
-        	isFireFox = /(?:Firefox)/.test(ua),
-        	isChrome = /(?:Chrome|CriOS)/.test(ua),
-        	isTablet = /(?:iPad|PlayBook)/.test(ua) || (isAndroid && !/(?:Mobile)/.test(ua)) || (isFireFox && /(?:Tablet)/.test(ua)),
-        	isPhone = /(?:iPhone)/.test(ua) && !isTablet,
-        	isPc = !isPhone && !isAndroid && !isSymbian;
-    		return {
-        	isTablet: isTablet,
-        	isPhone: isPhone,
-        	isAndroid: isAndroid,
-        	isPc: isPc
-    		};
-			}();
-			if(os.isAndroid || os.isPhone) {
-    			window.location.href="m.html"       
-			} else if(os.isTablet) {	
-			} else if(os.isPc) {
-			}
-        </script>
-    </head>
-    <body>
-        <div id="nav">
-            <div id="h">
-                <a href="#">星辰书院</a>
-            </div>
-            <div id="link">
-                <a href="https://tstar.rth.app" target="_blank">个人主页</a>
-                <a href="https://sanqianzzz.github.io/" target="_blank">博客</a>
-                <a href="https://tstar.rth.app/friend.html" target="_blank">友人帐</a>
-            </div>
-        </div>
-       <div id="top">
-           <div class="left">
-               <div class="color1">
-               <h4>玄幻</h4>
-               <ul>
-                   <li><a href="#">xxx</a></li>
-                   <li><a href="#">xxx</a></li>
-               </ul>
-               <div style="clear:both;"></div>
-               </div>
-               <div class="color2">
-               <h4>仙侠</h4>
-               <ul>
-                   <li><a href="#">xxx</a></li>
-                   <li><a href="#">xxx</a></li>
-               </ul>
-               <div style="clear:both;"></div>
-               </div>
-               <div class="color1">
-               <h4>奇幻</h4>
-               <ul>
-                   <li><a href="book/1/index.html">神兽学院</a></li>
-                   <li><a href="#">xxx</a></li>
-               </ul>
-               <div style="clear:both;"></div>
-               </div>
-               <div class="color2">
-               <h4>都市</h4>
-               <ul>
-                   <li><a href="#">xxx</a></li>
-                   <li><a href="#">xxx</a></li>
-               </ul>
-               <div style="clear:both;"></div>
-               </div>
-               <div class="color1">
-               <h4>轻小说</h4>
-               <ul>
-                   <li><a href="#">xxx</a></li>
-                   <li><a href="#">xxx</a></li>
-               </ul>
-               <div style="clear:both;"></div>
-               </div>
-           </div>
-           <a href="#"><img src="https://cdn.retiehe.com/cached-ff739696df97ce524234e547a164cc6b/xingzhan/muban/novel1/img/%E4%B8%8A%E4%BB%99%EF%BC%8C%E6%97%B6%E4%BB%A3%E5%8F%98%E4%BA%86.png"></a>
-           <div class="right">
-               <div class="color1">
-                <h4>热门资讯</h4>
-                <ul>
-                    <li><a href="#">杜珞宁新书</a></li>
-                </ul>
-                </div>
-                <div style="clear:both;"></div>
-           </div>
-           <div style="clear:both;"></div>
-       </div>
-       <div id="books">
-           <div class="tui">
-               <img src="https://cdn.retiehe.com/cached-cfed58a5c30b3f7061c33fc8b881da3e/xingzhan/muban/novel1/img/cover1.png">
-               <h2>上仙，时代变了</h2>
-               <h3>三千星斩·著</h3>
-               <div class="wen">作品简介：<br>李博闻：我的愿望是<del>修仙界核平</del><br>让每个修士都能享受科技带来的乐趣！</div>
-           </div>
-           <div class="tui">
-               <img src="https://cdn.retiehe.com/cached-778c2aef9a5be1cf790350e90a62920b/xingzhan/muban/novel1/img/cover2.png">
-               <h2>文娱之巅</h2>
-               <h3>三千星斩·著</h3>
-               <div class="wen">作品简介：<br>“你已经是一个成熟的穿越者了，要学会自己用马甲打败自己了。” 这是一个穿越者在异界搅动风云，以文娱证道的故事。</div>
-           </div>
-       </div>
-       <div id="footer">
-           <p style="text-align:center;">星辰书院 版权所有</p>
-       </div>
-    </body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院</title> 
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="js/search.js"></script> 
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<img src="img/logo.png" />
+			<h1>星辰书院</h1>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+        <li><a href="#">杜珞宁传</a></li> 
+        <li><a href="#">神兽学院</a></li> 
+		<li><a href="#">文娱之巅</a></li>
+        <li><a href="#">社区江湖</a></li> 
+		<li><a href="#">子弹轨迹</a></li>
+		<li><a href="#">MAGIC WORLD</a></li> 
+		<li><a href="#">上仙，时代变了</a></li> 
+		<li><a href="#">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+	            document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+	            document.querySelector("#list").style.display="none";
+	        };
+	    }
+	</script>
+	<div id="bookcase">
+		<div id="bookt">
+			<div id="hot">
+				<h2>今日热门</h2>
+				<div class="book">
+					<a href="book/1.html"><img src="https://cdn.retiehe.com/cached-778c2aef9a5be1cf790350e90a62920b/xingzhan/muban/novel1/img/cover2.png" /></a>
+					<a href="book/1.html" class="name">文娱之巅</a>
+					<p class="content">“你已经是一个成熟的穿越者了，要学会自己用马甲打败自己了。” <br>这是一个穿越者在异界搅动风云，以文娱证道的故事。</p>
+					<a href="fenlei/dushi.html" class="kind">都市</a>·<a href="writer/1.html" class="writer">xx</a>
+				</div>
+				<div class="book">
+					<a href="book/2.html"><img src="https://cdn.retiehe.com/cached-cfed58a5c30b3f7061c33fc8b881da3e/xingzhan/muban/novel1/img/cover1.png" /></a>
+					<a href="book/2.html" class="name">上仙，时代变了</a>
+					<p class="content">李博闻：我的愿望是让每个修士都能享受科技带来的乐趣！</p>
+					<a href="fenlei/xianxia.html" class="kind">仙侠</a>·<a href="writer/1.html" class="writer">xx</a>
+				</div>
+				<div class="book">
+					<a href="book/2.html"><img src="https://cdn.retiehe.com/cached-cfed58a5c30b3f7061c33fc8b881da3e/xingzhan/muban/novel1/img/cover1.png" /></a>
+					<a href="book/2.html" class="name">上仙，时代变了</a>
+					<p class="content">李博闻：我的愿望是让每个修士都能享受科技带来的乐趣！</p>
+					<a href="fenlei/xianxia.html" class="kind">仙侠</a>·<a href="writer/1.html" class="writer">xx</a>
+				</div>
+			</div>
+			<div id="booklist">
+				<h2>全站总榜单</h2>
+				<ul id="hotlist">
+					<li>1.<a href="#">神兽学院</a></li>
+					<li>2.<a href="#">子弹轨迹</a></li>
+					<li>3.<a href="#">社区江湖</a></li>
+					<li>4.<a href="#">MAGIC WORLD</a></li>
+					<li>5.<a href="#">小学生奇幻冒险之天地宝鉴</a></li>
+					<li>6.<a href="#">虚位以待</a></li>
+					<li>7.<a href="#">虚位以待</a></li>
+					<li>8.<a href="#">虚位以待</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body> 
 </html>
