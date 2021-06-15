@@ -141,7 +141,7 @@ div.book {
 .book a.kind {
 	color:#1a1a1a;
 	padding-left:16px;
-	padding-right:2px;
+	padding-right:5px;
 	transition:color 0.2s ease-in-out;
 }
 .book a.kind:hover {
@@ -149,7 +149,7 @@ div.book {
 }
 .book a.writer {
 	color:#1a1a1a;
-	padding-left:2px;
+	padding-left:5px;
 	transition:color 0.2s ease-in-out;
 }
 .book a.writer:hover {
