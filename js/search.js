@@ -5,7 +5,7 @@
   
   function listFilter(header, list) {
     var form = $("<form>").attr({"action":"#"}),
-        input = $("<input>").attr({"type":"text","placeholder":"大家都在搜"});
+        input = $("<input>").attr({"type":"text","placeholder":"大家都在搜","id":"txt"});
     $(form).append(input).appendTo(search);//添加form input到$("#header")
  
     $(input)

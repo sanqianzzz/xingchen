@@ -11,8 +11,8 @@
 <body> 
 	<div id="nav">
 		<div class="logo">
-			<img src="img/logo.png" />
-			<h1>星辰书院</h1>
+			<a href="index.html"><img src="img/logo.png" /></a>
+			<a href="index.html"><h1>星辰书院</h1></a>
 		</div>
 		<div id="search"> 
 		</div>
@@ -31,7 +31,9 @@
 		window.onload = function () {
 	        var inputs = document.querySelector("input");
 	        inputs.onfocus = function () {
-	            document.querySelector("#list").style.display="block";
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
 	        };
 	        inputs.onblur = function () {
 	            document.querySelector("#list").style.display="none";
@@ -46,19 +48,19 @@
 					<a href="book/1.html"><img src="https://cdn.retiehe.com/cached-778c2aef9a5be1cf790350e90a62920b/xingzhan/muban/novel1/img/cover2.png" /></a>
 					<a href="book/1.html" class="name">文娱之巅</a>
 					<p class="content">“你已经是一个成熟的穿越者了，要学会自己用马甲打败自己了。” <br>这是一个穿越者在异界搅动风云，以文娱证道的故事。</p>
-					<a href="fenlei/dushi.html" class="kind">都市</a>·<a href="writer/1.html" class="writer">xx</a>
+					<a href="fenlei/dushi.html" class="kind">都市</a>·<a href="writer/1.html" class="writer">三千星斩</a>
 				</div>
 				<div class="book">
 					<a href="book/2.html"><img src="https://cdn.retiehe.com/cached-cfed58a5c30b3f7061c33fc8b881da3e/xingzhan/muban/novel1/img/cover1.png" /></a>
 					<a href="book/2.html" class="name">上仙，时代变了</a>
 					<p class="content">李博闻：我的愿望是让每个修士都能享受科技带来的乐趣！</p>
-					<a href="fenlei/xianxia.html" class="kind">仙侠</a>·<a href="writer/1.html" class="writer">xx</a>
+					<a href="fenlei/xianxia.html" class="kind">仙侠</a>·<a href="writer/1.html" class="writer">三千星斩</a>
 				</div>
 				<div class="book">
-					<a href="book/2.html"><img src="https://cdn.retiehe.com/cached-cfed58a5c30b3f7061c33fc8b881da3e/xingzhan/muban/novel1/img/cover1.png" /></a>
-					<a href="book/2.html" class="name">上仙，时代变了</a>
-					<p class="content">李博闻：我的愿望是让每个修士都能享受科技带来的乐趣！</p>
-					<a href="fenlei/xianxia.html" class="kind">仙侠</a>·<a href="writer/1.html" class="writer">xx</a>
+					<a href="book/3.html"><img src="https://cdn.retiehe.com/cached-54b19e6f3d8d9504989d9b7f53e8a3ae/xingchen/img/tdbj.png" /></a>
+					<a href="book/3.html" class="name">小学生奇幻冒险之天地宝鉴</a>
+					<p class="content">几个小学生因为命运的联系而踏上了一条冒险之旅。他们在进行任务的途中却被传送阵送到了4379年的未来世界，在未来，他们将会有怎样离奇的经历，又将有怎样的事情等着他们呢</p>
+					<a href="fenlei/xianxia.html" class="kind">仙侠</a>·<a href="writer/2.html" class="writer">北港小同学</a>
 				</div>
 			</div>
 			<div id="booklist">

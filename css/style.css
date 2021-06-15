@@ -32,6 +32,7 @@ a {
 	font-family: 胡晓波男神体;
 	float:left;
 	line-height: 80px;
+	color:black;
 }
 #search input {
 	float:right;
@@ -54,9 +55,9 @@ a {
 	right: 89px;
 	width:215px;
 	z-index: 100;
-	min-height:80px;
+	min-height:50px;
 	overflow-y:auto;
-	max-height:150px;
+	max-height:200px;
 	background-color: white;
 	border: 1px solid black;
 	border-top: 0px;
@@ -161,7 +162,7 @@ div.book {
 #hotlist {
 	margin-top: 25px;
 	width:300px;
-	height: 330px;
+	height: 322px;
 	border: 0;
 	background-color: #efeef2;
 	padding-left:25px;
