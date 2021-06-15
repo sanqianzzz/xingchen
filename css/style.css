@@ -195,3 +195,32 @@ div.book {
 #hotlist li a:hover {
 	color:#e44c65;
 }
+#footer {
+	clear: both;
+    background: #d9d9d9;
+    border-top: 1px solid #ccc;
+    margin: 30px auto 0;
+    font-size: 12px;
+    padding-top: 20px;
+	height: 70px;
+	width: 100%;
+}
+#footerlist {
+	width:240px;
+	margin:0 auto;
+
+}
+#footerlist li {
+	list-style-type: none;
+	float: left;
+	padding-left: 20px;
+}
+#footerlist li a {
+	color:black;
+}
+#footerlist li a:hover {
+	text-decoration:underline;
+}
+#footer p {
+	text-align: center;
+}
