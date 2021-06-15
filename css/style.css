@@ -66,6 +66,7 @@ a {
 #list li {
 	list-style-type:none;
 	height: 30px;
+	width:215px;
 	overflow:hidden;
 	text-overflow:elipsis;
 	white-space:nowrap;
@@ -114,6 +115,7 @@ div.book {
 	cursor: pointer;
 }
 .book a.name {
+	display: block;
 	color:#1a1a1a;
 	font-size: 1.15em;
 	padding-top:-5px;
@@ -121,6 +123,8 @@ div.book {
 	font-weight: 520;
 	transition:color 0.2s ease-in-out;
 	cursor: pointer;
+	height: 24px;
+	overflow:hidden;
 }
 .book a.name:hover {
 	color:#e44c65;
