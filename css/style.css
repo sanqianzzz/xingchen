@@ -84,7 +84,7 @@ a {
 }
 #bookcase {
 	margin: 0 auto;
-	width:1120px;
+	width:1110px;
 	padding:5px;
 }
 #bookt {
@@ -151,7 +151,7 @@ div.book {
 	color:#e44c65;
 }
 #booklist {
-	width: 360px;
+	width: 350px;
 	float: left;
 }
 #booklist h2 {
@@ -164,8 +164,8 @@ div.book {
 	height: 330px;
 	border: 0;
 	background-color: #efeef2;
-	padding-left:30px;
-	padding-right:30px;
+	padding-left:25px;
+	padding-right:25px;
 }
 #hotlist li {
 	list-style-type: none;
