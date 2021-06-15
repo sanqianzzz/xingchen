@@ -92,6 +92,11 @@ a {
 #bookt {
 	margin-top: 80px;
 	padding-top: 30px;
+	height: 400px;
+}
+#bookt2 {
+	margin-top: 40px;
+	height: 400px;
 }
 #hot {
 	width:760px;
@@ -114,19 +119,20 @@ div.book {
 	float:left;
 	cursor: pointer;
 }
-.book a.name {
-	display: block;
-	color:#1a1a1a;
-	font-size: 1.15em;
+.book div.name {
 	padding-top:-5px;
 	padding-left:16px;
-	font-weight: 520;
-	transition:color 0.2s ease-in-out;
-	cursor: pointer;
 	height: 24px;
 	overflow:hidden;
 }
-.book a.name:hover {
+.book .name a {
+	color:#1a1a1a;
+	font-size: 1.15em;
+	font-weight: 520;
+	transition:color 0.2s ease-in-out;
+	cursor: pointer;
+}
+.book .name a:hover {
 	color:#e44c65;
 }
 .book p.content {
