@@ -201,8 +201,8 @@ div.book {
 }
 #footer {
 	clear: both;
-    background: #d9d9d9;
-    border-top: 1px solid #ccc;
+    background: rgb(220, 220, 220);
+    border-top: 1px solid #f9f9f9;
     margin: 30px auto 0;
     font-size: 12px;
     padding-top: 20px;
