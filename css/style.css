@@ -55,7 +55,7 @@ a {
 	right: 89px;
 	width:215px;
 	z-index: 100;
-	min-height:30px;
+	min-height:0px;
 	overflow-y:auto;
 	max-height:240px;
 	background-color: white;
