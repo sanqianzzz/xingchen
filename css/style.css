@@ -109,70 +109,45 @@ a {
 	color: #666;
 	padding-left:10px;
 }
-div.book {
+.book {
 	margin-top: 25px;
-	width:320px;
+    width: 320px;
+    height: 140px;
+    margin-right: 20px;
+	display: flex;
+}
+.book_img {
+	margin-right: 15px;
+}
+.book_img img {
+	width: 105px;
+    height: 140px; 
+}
+.book_information {
 	height: 140px;
-	margin-right: 20px;
-	float: left;
+	width: 200px;
 }
-.book img{
-	width:105px;
-	height:140px;
-	float:left;
-	cursor: pointer;
-}
-.book div.name {
-	padding-top:-5px;
-	padding-left:16px;
-	height: 24px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 1;
-	-webkit-box-orient: vertical;
-}
-.book .name a {
-	color:#1a1a1a;
+.book_information a.name {
+	color: #1a1a1a;
+    font-weight: 520;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+	display: block;
 	font-size: 1.15em;
-	font-weight: 520;
-	transition:color 0.2s ease-in-out;
-	cursor: pointer;
+	height: 24px;
+    line-height: 24px;
+    overflow: hidden; 
 }
-.book .name a:hover {
-	color:#e44c65;
+.book_information a.name:hover {
+	color: #e44c65;
 }
-.book p.content {
+.book_information p {
 	text-indent: 2em;
-	color:#666;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 4;
-	-webkit-box-orient: vertical;
-	padding-left: 16px;
-	padding-top: 5px;
-	margin-bottom: 5px;
-	height: 60%;
-}
-.book a.kind {
-	color:#1a1a1a;
-	padding-left:16px;
-	padding-right:5px;
-	transition:color 0.2s ease-in-out;
-}
-.book a.kind:hover {
-	color:#e44c65;
-}
-.book a.writer {
-	color:#1a1a1a;
-	padding-left:5px;
-	transition:color 0.2s ease-in-out;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-.book a.writer:hover {
-	color:#e44c65;
+    color: #666;
+	line-height: 1.8em;
+    height: 80px;
+    overflow: hidden;
+    margin: 5px 0;
 }
 #booklist {
 	width: 350px;
