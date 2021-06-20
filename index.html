@@ -89,6 +89,83 @@
 				</ul>
 			</div>
 		</div>
+		<div id="bookt2">
+			<h2>新书尝鲜</h2>
+			<script language="javascript" src="js/jquery.js"></script>
+			<script language="javascript">
+				$(document).ready(function(){
+   					var len=$("#flash_num>li").length;
+   					var index=0;
+   					var int;
+   					function showSys(num){
+						$("#flash_num>li").removeClass().addClass("click_out").eq(num).toggleClass("click_out").addClass("click_over");
+						$("#flash_pic>div").fadeOut(0).eq(num).fadeIn(0);
+					}
+					showSys(index);
+					index=index+1;
+					function ziDong()  //自动切换
+					{
+						if(index==len)
+						{
+        					index=0;
+						}
+						showSys(index);
+						index=index+1;
+					}
+					int=setInterval(ziDong,2000);
+					$("#flash_num>li").click(function() //点击切换
+					{
+						var index_num=$("#flash_num>li").index(this);
+						showSys(index_num);
+						index=index_num+1;  //改变全局变量的值，以便鼠标移开的时候能够衔接上
+					});
+   
+					$("#movie-img2").mouseover(function()  //移动到上面时停止自动切换
+					{
+						clearInterval(int);
+					});
+					$("#movie-img2").mouseout(function()  //移开时继续自动切换
+					{
+						int=setInterval(ziDong,2000);
+					});
+	   
+				});
+			</script>
+			<div id="movie-img">
+				<div id="movie-img2">
+					<div id="flash_pic">
+						<div class="flash-picture"><a href="book/1.html"><img src="https://cdn.retiehe.com/cached-778c2aef9a5be1cf790350e90a62920b/xingzhan/muban/novel1/img/cover2.png" /></a></div>
+						<div class="flash-picture" ><a href="book/2.html"><img src="https://cdn.retiehe.com/cached-cfed58a5c30b3f7061c33fc8b881da3e/xingzhan/muban/novel1/img/cover1.png" /></a></div>
+						<div class="flash-picture"><a href="book/3.html"><img src="https://cdn.retiehe.com/cached-54b19e6f3d8d9504989d9b7f53e8a3ae/xingchen/img/tdbj.png" /></a></div>
+						<div class="flash-picture"><a href="#"><img src="https://cdn.retiehe.com/cached-54b19e6f3d8d9504989d9b7f53e8a3ae/xingchen/img/tdbj.png" /></a></div>
+					</div>
+					<ul  id="flash_num">
+						<li class="click_over">文娱之巅</li>
+						<li class="click_out">上仙，时代变了</li>
+						<li class="click_out">小学生奇幻冒险之天地宝鉴</li>
+						<li class="click_out">虚位以待</li>
+					</ul>
+				</div>
+			</div>
+			<div id="new">
+				<div class="novel">
+					<h3><a href="#">子弹轨迹</a></h3>
+					<p>姜真理的人生像是照不进一丝光亮的黑暗森林，而秦浩铭现在仿佛成为了她世界上唯一的一缕阳光。</p>
+				</div>
+				<div class="novel">
+					<h3><a href="#">社区江湖</a></h3>
+					<p>刘乙未朝着笛声来源看去，一个深蓝色头发的少年，身着蓝色的衣服，眼睛里蓝黄交错，仿佛有一篇星河。</p>
+				</div>
+				<div class="novel">
+					<h3><a href="#">MAGIC WORLD</a></h3>
+					<p>希一边说一边把那根教鞭棍上的屏幕打开，一些换位，没有拆装，直接变成了耳机。</p>
+				</div>
+				<div class="novel">
+					<h3><a href="#">神兽学院</a></h3>
+					<p>她喊到第二次的时候，一只浑身银白，额前长着金色的细角，背上似乎还有东西在收着的小马从她身边凭空冒出。</p>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id="footer">
 		<ul id="footerlist">
