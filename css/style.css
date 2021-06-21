@@ -133,18 +133,19 @@ a {
 	width: 200px;
 	float: left;
 }
-.book_information a.name {
-	color: #1a1a1a;
-    font-weight: 520;
-    transition: color 0.2s ease-in-out;
-    cursor: pointer;
+.book_information span.name {
 	display: block;
-	font-size: 1.15em;
 	height: 24px;
-    line-height: 24px;
     overflow: hidden; 
 }
-.book_information a.name:hover {
+.book_information .name a {
+	transition: color 0.2s ease-in-out;
+	color: #1a1a1a;
+    font-weight: 520;
+	font-size: 1.15em;
+    line-height: 24px;
+}
+.book_information .name a:hover {
 	color: #e44c65;
 }
 .book_information p {
@@ -312,10 +313,10 @@ a {
 }
 .novel p {
 	text-indent: 2em;
-	font-size: 15px;
-    line-height: 20px;
+	/* font-size: 15px; */
+    line-height: 21px;
     overflow: hidden;
-    height: 103px;
+    height: 105px;
     color: #666;
 }
 #footer {
