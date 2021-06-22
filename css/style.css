@@ -2,6 +2,10 @@
 	font-family: 胡晓波男神体;
 	src: url('https://sanqianzzz.github.io/xingchen/font/HuXiaoBoNanShenTi-2.otf');
 }
+@font-face {
+	font-family: 方正中粗雅宋;
+	src: url('https://sanqianzzz.github.io/xingchen/font/FZZCYSK.TTF');
+}
 * {
 	margin:0;
 	padding:0;
@@ -99,9 +103,17 @@ a {
 }
 #bookt2 {
 	margin-top: 40px;
-	height: 400px;
+	height: 356px;
 }
 #bookt2 h2 {
+	color: #666;
+	margin-left:10px;
+}
+#bookt3 {
+	margin-top: 40px;
+	height: 500px;
+}
+#bookt3 h2 {
 	color: #666;
 	margin-left:10px;
 }
@@ -318,6 +330,22 @@ a {
     overflow: hidden;
     height: 105px;
     color: #666;
+}
+.novellist {
+	margin-top:25px;
+	width:300px;
+	margin-left:60px;
+}
+.novellist h3 {
+	font-family: 方正中粗雅宋;
+	font-weight: 400;
+	font-size: 18px;
+    line-height: 25px;
+    overflow: hidden;
+	padding-bottom: 5px;
+    height: 25px;
+    color: #1a1a1a;
+	border-bottom: 1px solid black;
 }
 #footer {
 	clear: both;
