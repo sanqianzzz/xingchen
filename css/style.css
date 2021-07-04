@@ -111,7 +111,7 @@ a {
 }
 #bookt3 {
 	margin-top: 40px;
-	height: 500px;
+	height: 486px;
 }
 #bookt3 h2 {
 	color: #666;
@@ -334,7 +334,9 @@ a {
 .novellist {
 	margin-top:25px;
 	width:300px;
-	margin-left:60px;
+	margin-left:55px;
+	height: 430px;
+	float: left;
 }
 .novellist h3 {
 	font-family: 方正中粗雅宋;
@@ -342,10 +344,81 @@ a {
 	font-size: 18px;
     line-height: 25px;
     overflow: hidden;
-	padding-bottom: 5px;
+	padding-bottom: 4px;
     height: 25px;
     color: #1a1a1a;
 	border-bottom: 1px solid black;
+}
+.list2 {
+	width:290px;
+	height: 380px;
+	padding:20px 5px 0px;
+}
+.list2 li {
+	display:block;
+	list-style-type: none;
+	margin-bottom: 20px;
+	height: 20px;
+}
+.list2 .first {
+	width:290px;
+	height: 120px;
+}
+.first .listimg{
+	margin-right: 18px;
+	float: left;
+	width: 90px;
+    height: 120px; 
+}
+.first .listimg img {
+	width: 90px;
+    height: 120px; 
+}
+.first .listinformation {
+	height: 120px;
+	width: 182px;
+	float: left;
+}
+.first .listinformation span.name {
+	display: block;
+	height: 25px;
+    overflow: hidden; 
+}
+.first .listinformation .name a {
+	transition: color 0.2s ease-in-out;
+	color: #1a1a1a;
+    font-weight: 500;
+	font-size: 16px;
+    line-height: 25px;
+}
+.first .listinformation .name a:hover {
+	color: #e44c65;
+}
+.first .listinformation p {
+    color: #666;
+	line-height: 1.5em;
+    height: 82px;
+    overflow: hidden;
+    margin-top:8px;
+	font-size: 14px;
+}
+.list2 li .thekind{
+	margin-left:10px;
+	display: inline-block;
+	width:60px;
+	height: 20px;
+}
+.list2 li .thename{
+	display: inline-block;
+	width:220px;
+	height: 20px;
+}
+.list2 li a {
+	color: #1a1a1a;
+	transition: color 0.2s ease-in-out;
+}
+.list2 li a:hover {
+	color: #e44c65;
 }
 #footer {
 	clear: both;
