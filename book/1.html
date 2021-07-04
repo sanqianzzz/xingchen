@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>文娱之巅 星辰书院</title>
+		<link rel="stylesheet" href="../css/book.css">
+		<link rel="icon" href="../img/logo.png" type="image/x-icon">
+		<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+		<script src="../js/search.js"></script> 
 	</head>
 	<body>
+		<div id="nav">
+			<div class="logo">
+				<a href="../index.html"><img src="../img/logo.png" /></a>
+				<a href="../index.html"><h1>星辰书院</h1></a>
+			</div>
+			<div id="search"> 
+			</div>
+		</div>
+		<ul id="list"> 
+			<li><a href="#">妖灵记</a></li> 
+			<li><a href="#">杜珞宁传</a></li> 
+			<li><a href="#">神兽学院</a></li> 
+			<li><a href="#">文娱之巅</a></li>
+			<li><a href="#">社区江湖</a></li> 
+			<li><a href="#">子弹轨迹</a></li>
+			<li><a href="#">MAGIC WORLD</a></li> 
+			<li><a href="#">上仙，时代变了</a></li> 
+			<li><a href="#">小学生奇幻冒险之天地宝鉴</a></li>
+		</ul> 
+		<script>
+			window.onload = function () {
+				var inputs = document.querySelector("input");
+				inputs.onfocus = function () {
+					var str = document.getElementById("txt").value;
+					//if(str!="")
+						document.querySelector("#list").style.display="block";
+				};
+				inputs.onblur = function () {
+					document.querySelector("#list").style.display="none";
+				};
+			}
+		</script>
+		<div id="bookcase"> 
+			<div id="box">
+				<div id="book">
+					<div id="bookcover">
+						<a href="#"><img src="https://cdn.retiehe.com/cached-778c2aef9a5be1cf790350e90a62920b/xingzhan/muban/novel1/img/cover2.png" /></a>
+					</div>
+					<div id="info">
+						<span id="name"><h2>文娱之巅</h2></span>
+						<span id="writer"><a href="../writer/1.html">三千星斩</a>&nbsp;&nbsp;著</span>
+						<p>“你已经是一个成熟的穿越者了，要学会自己用马甲打败自己了。” <br>这是一个穿越者在异界搅动风云，以文娱证道的故事。</p>
+						<a href="../chapter/1.html" class="button">开始阅读</a>
+						<a href="#" class="button">加入书架</a>
+					</div>
+					<div style="clear: both;"></div>
+					<div id="chapter">
+						<div class="volume">
+							<h3>作品相关</h3>
+							<ul>
+								<li><a href="../chapter/9.html">前言</a></li>
+							</ul>
+						</div>
+						<div style="clear:both;"></div>
+						<div class="volume">
+							<h3>正文卷</h3>
+							<ul>
+								<li><a href="../chapter/1.html">第一章 剑吼西风</a></li>
+								<li><a href="../chapter/2.html">第二章 顾飞老师</a></li>
+								<li><a href="../chapter/3.html">第三章 屠尽天下断章狗</a></li>
+								<li><a href="../chapter/4.html">第四章 爸爸妈妈</a></li>
+								<li><a href="../chapter/5.html">第五章 小孩子才做选择</a></li>
+								<li><a href="../chapter/6.html">第六章 高人竟在我身边</a></li>
+								<li><a href="../chapter/7.html">第七章 这一生关于你的风景</a></li>
+								<li><a href="../chapter/8.html">第八章 抄袭</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
