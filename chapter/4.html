@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院3.0</title> 
+	<link rel="stylesheet" href="../css/chapter.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="../js/search.js"></script> 
+	<link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" /></a>
+			<a href="../index.html"><h1>星辰书院</h1></a>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+		<li><a href="../book/9.html">妖灵记</a></li> 
+		<li><a href="../book/4.html">杜珞宁传</a></li> 
+		<li><a href="../book/5.html">神兽学院</a></li> 
+		<li><a href="../book/1.html">文娱之巅</a></li>
+		<li><a href="../book/6.html">社区江湖</a></li> 
+		<li><a href="../book/7.html">子弹轨迹</a></li>
+		<li><a href="../book/8.html">MAGIC WORLD</a></li> 
+		<li><a href="../book/2.html">上仙，时代变了</a></li> 
+		<li><a href="../book/3.html">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+				setTimeout("document.querySelector(\"#list\").style.display=\"none\"",99);
+	        };
+	    }
+	</script>
+    <div id="background"></div>
+    <div id="bookcase">
+        <div id="book">
+            <h2>第四章 爸爸妈妈</h2>
+            <div id="info">
+                <span style="color: rgba(0,0,0,.4);">小说：<a href="../book/1.html">文娱之巅</a></span>
+                <span style="color: rgba(0,0,0,.4);">作者：<a href="../writer/1.html">三千星斩</a></span>
+            </div>
+            <div id="text">
+                <p>归去来兮的留言杜珞宁暂时看不见。</p>
+                <p>她此时正忙着编曲……</p>
+                <p>还是原主留下的烂摊子。原主一心想扑在文学创作上，但人总要吃饭，哪怕是美少女也得吃。不想让父母打钱，无奈之下，原主只好加入了一家音乐公司，平时接接单写写歌，维持了正常生活。</p>
+                <p>有一说一，原主这音乐天赋着实恐怖，恐怖到年纪轻轻就有了资深作曲人的能力，连规模不小的公司都给予了其特殊待遇，除了特殊情况，平时她可以居家工作，工资照常发放。</p>
+                <p>一个月前，原主接了一个大单子。青州顶级娱乐公司星恋娱乐出资拍摄的电影需要一首主题曲，要求温馨，歌颂父母对孩子无私的爱。原主揽下了这活。眼下期限将至，对方来催了，但杜珞宁哪有歌给他们。在她接收到的原主的记忆里，跟音乐有关的只有一大堆乐理知识和编曲技巧，连一点跟这主题曲有关系的内容都莫得。星恋娱乐和公司催得紧，她只好硬着头皮回复晚上交歌。</p>
+                <p>反正，交不上歌的是原主，跟我杜珞宁有什么关系，对吧。</p>
+                <p>……</p>
+                <p>香菜是星斩娱乐音乐部门的部长。</p>
+                <p>此时屋外艳阳高照，她坐在办公室里，看着青信通讯录里的某个头像，想点进去，却又不敢。她怕自己会被气死。</p>
+                <p>昨天12时50分。</p>
+                <p>XC_：玲珑啊，星恋娱乐那主题曲做好了吗？</p>
+                <p>昨天13时08分。</p>
+                <p>XC_：在吗？</p>
+                <p>昨天13时15分。</p>
+                <p>月光玲珑：什么事？</p>
+                <p>XC_：一个月前你接的歌，做好了吗？</p>
+                <p>月光玲珑：……没有。</p>
+                <p>XC_：大概什么时候能完成？</p>
+                <p>月光玲珑：晚上六七点吧。</p>
+                <p>XC_：好。</p>
+                <p>昨天19时01分。</p>
+                <p>XC_：做好了吗？</p>
+                <p>昨天19时54分。</p>
+                <p>XC_：在？</p>
+                <p>昨天20时37分。</p>
+                <p>XC_：玲珑，在吗？</p>
+                <p>昨天21时05分。</p>
+                <p>XC_：做好了吗？</p>
+                <p>昨天23时59分。</p>
+                <p>XC_：第二天了，做好了吗？</p>
+                <p>……</p>
+                <p>聊天记录大概就是这样子。杜珞宁作为一只光荣的鸽子，又成功拖了一个晚上。顺便把香菜部长的心态搞崩了。</p>
+                <p>星斩娱乐算是娱乐公司中较为特殊的那一类了。公司的业务范围很广，从小说到游戏，没有什么不做的。员工为了争权夺利而明争暗斗的事情也很少，彼此之间相处融洽。星斩音乐这些年与其他部门相比一直不温不火，在青州的官方音乐机构排行榜上也始终只能在前五外打转。被星恋娱乐这种顶尖公司挑中也只是因为两家公司关系好而已。</p>
+                <p>香菜部长早就想改变音乐部门现在这种状况，奈何实在有心无力。旗下优秀的音乐工作者和歌手太少，能拿得出手的就那么几个，脾性还那么怪，让香菜操碎了心。尤其是月光玲珑，也就是杜珞宁。当初她可是被评为青州近十年来最妖孽的作曲人。让香菜好一阵发自内心的欣喜。结果，好好一孩子，偏偏想不开要去搞什么文学，白瞎这实力和天赋。</p>
+                <p>“叮……”</p>
+                <p>星恋娱乐又来催了，香菜头疼。月光玲珑迟迟不交歌，她也没办法。两家公司关系好是一回事，但也不能这样一直拖下去。香菜决定等会就再去催她一次。</p>
+                <p>“叮……”</p>
+                <p>月光玲珑的头像右侧亮起一个红点，上面用白字标着“1”。香菜一怔，意识到什么以后，她几乎感动得泪流满面。点进聊天，只见月光玲珑发来了一个音频文件……两个，三个！香菜倏地睁大眼睛，不敢相信。惊喜的同时又有点怀疑。把三个音频文件导入到播放器中，香菜开始逐一试听。</p>
+                <p>【我曾经很想知道</p>
+                <p>同样的话要说多少次才好</p>
+                <p>那些再三强调的老套</p>
+                <p>长大了才知道是不是需要……】</p>
+            </div>
+        </div>
+        <div id="nav2">
+            <a href="3.html" class="button right">上一章</a>
+            <a href="../book/1.html" class="button right">目录</a>
+            <a href="5.html" class="button">下一章</a>
+        </div>
+    </div>
+</body>
+</html>

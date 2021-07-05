@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院3.0</title> 
+	<link rel="stylesheet" href="../css/chapter.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="../js/search.js"></script> 
+	<link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" /></a>
+			<a href="../index.html"><h1>星辰书院</h1></a>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+		<li><a href="../book/9.html">妖灵记</a></li> 
+		<li><a href="../book/4.html">杜珞宁传</a></li> 
+		<li><a href="../book/5.html">神兽学院</a></li> 
+		<li><a href="../book/1.html">文娱之巅</a></li>
+		<li><a href="../book/6.html">社区江湖</a></li> 
+		<li><a href="../book/7.html">子弹轨迹</a></li>
+		<li><a href="../book/8.html">MAGIC WORLD</a></li> 
+		<li><a href="../book/2.html">上仙，时代变了</a></li> 
+		<li><a href="../book/3.html">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+				setTimeout("document.querySelector(\"#list\").style.display=\"none\"",99);
+	        };
+	    }
+	</script>
+    <div id="background"></div>
+    <div id="bookcase">
+        <div id="book">
+            <h2>第一章 剑吼西风</h2>
+            <div id="info">
+                <span style="color: rgba(0,0,0,.4);">小说：<a href="../book/1.html">文娱之巅</a></span>
+                <span style="color: rgba(0,0,0,.4);">作者：<a href="../writer/1.html">三千星斩</a></span>
+            </div>
+            <div id="text">
+                <p>学而思大陆，青州大学附近。</p>
+                <p>某间出租屋里，杜珞宁在笔记本电脑前端坐。屏幕上映出一张娟秀而美丽的脸，就在这精致的脸上，一双美目布满血丝，狠狠地盯着面前的电脑。</p>
+                <p>电脑上显示：</p>
+                <p>【千度百科 学而思大陆</p>
+                <p>学而思大陆，又名九州。世界最强盛的大陆之一，七大陆第二顺位。古时，学而思大陆就被划分为九个区域，分别为：冀州、兖州、青州、徐州、扬州、荆州、豫州、梁州、雍州……】</p>
+                <p>杜珞宁，准确来说是这具身体的原主被从一个湛蓝星球穿越而来的灵魂替代前，是学而思大陆顶尖学府，青州大学音乐系的学生。</p>
+                <p>按理说这种学校的学生，在外应该是香馍馍，是各大公司争抢的对象。但身为音乐系教授都看重的学霸、众学生心中的女神，原主没有一点风云人物的自觉。她在大二找到了自己的兴趣——文学，从此投身于文学创作，逐渐疏远音乐。</p>
+                <p>要是写文章写出点成绩也就罢了，但原主写了几乎一年的小说，除了扑街还是扑街，最终只有一部幸免，其它的都惨遭网站下架。那些作品其实没有问题，文笔也不错，但网络上的小说本就是一种快餐文化，人读小说就图个爽和乐呵，没人会逐字逐句地去品味她的作品。就这样，原主遭受了巨大打击。最近天天在夜里借酒消愁，在昨天意外离世。</p>
+                <p>这是杜珞宁穿越后接收到的记忆，相较于跟自己同名的原主的悲惨故事，杜珞宁反而更纳闷。前世的她作为一个小游戏工作室的程序员，仅加了一周的班就离开了那个美丽的世界。而且穿越后杜珞宁的第一反应竟然还是下意识地敲键盘……</p>
+                <p>经历每个穿越者都会经历的痛苦的记忆接收后，杜珞宁开始查询这个世界的基本资料，出乎意料的是，这个世界竟然是一片汪洋大海，而人们都生活在各个大陆上。大陆的大小、综合实力有强有弱，根据明面上的数据，人们将大陆分成了多个档次。第一梯队的大陆共七个，它们有一个更显赫的统称——“七大陆”。七大陆排名是：编程猫、学而思、阿儿法营、小码王、西瓜、卡搭和编玩边学。这是民间的说法，虽说官方排名肯定会不同，但已深入人心。</p>
+                <p>杜珞宁切换浏览器页面。这是原主连载小说的网站，名叫“星辰书院”，在青州也算是知名平台,地位类似于前世的起点中文网。</p>
+                <p>经过一番查看后，杜珞宁发现，青州的大部分小说的套路在地球都已经被玩烂了。她前世记忆中的种种流派与经典作品，在这里都是全新的想法。想到这点，杜珞宁心头不禁火热，没想到有朝一日，她也可以在异界当文抄公。杜珞宁决定写出一部小说试试水。用原主本身的作家账号“杜珞宁”发布作品肯定不行，文风太过清新。她点击“作家注册”。</p>
+                <p>请输入你的笔名。</p>
+                <p>叫什么好呢……杜珞宁想了想，纤手飞快敲出四个字：剑吼西风。</p>
+            </div>
+        </div>
+        <div id="nav2">
+            <a href="#" class="button right">已经是第一章了</a>
+            <a href="../book/1.html" class="button right">目录</a>
+            <a href="2.html" class="button">下一章</a>
+        </div>
+    </div>
+</body>
+</html>

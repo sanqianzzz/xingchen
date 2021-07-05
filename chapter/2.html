@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院3.0</title> 
+	<link rel="stylesheet" href="../css/chapter.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="../js/search.js"></script> 
+	<link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" /></a>
+			<a href="../index.html"><h1>星辰书院</h1></a>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+		<li><a href="../book/9.html">妖灵记</a></li> 
+		<li><a href="../book/4.html">杜珞宁传</a></li> 
+		<li><a href="../book/5.html">神兽学院</a></li> 
+		<li><a href="../book/1.html">文娱之巅</a></li>
+		<li><a href="../book/6.html">社区江湖</a></li> 
+		<li><a href="../book/7.html">子弹轨迹</a></li>
+		<li><a href="../book/8.html">MAGIC WORLD</a></li> 
+		<li><a href="../book/2.html">上仙，时代变了</a></li> 
+		<li><a href="../book/3.html">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+				setTimeout("document.querySelector(\"#list\").style.display=\"none\"",99);
+	        };
+	    }
+	</script>
+    <div id="background"></div>
+    <div id="bookcase">
+        <div id="book">
+            <h2>第二章 顾飞老师</h2>
+            <div id="info">
+                <span style="color: rgba(0,0,0,.4);">小说：<a href="../book/1.html">文娱之巅</a></span>
+                <span style="color: rgba(0,0,0,.4);">作者：<a href="../writer/1.html">三千星斩</a></span>
+            </div>
+            <div id="text">
+                <p>很快，作家注册完毕。</p>
+                <p>杜珞宁照着前世的印象，用半小时在电脑上绘制出了小说封面。这种美工的活她做来也算娴熟，前世兼职设计师时，经常出现工作室的美工无法画出她要的感觉的情况，为了还原自己的设计，也为了跟美工交涉时有点底气，杜珞宁特地去学了绘图和图片设计。没想到倒在穿越后派上了用场。她打开作者后台，创建新作品，上传封面，开始码字——</p>
+                <p>【云端城的天空一片灰暗，断断续续地飘落着细雨。</p>
+                <p>城中法师学院的玩家出生点附近，两个NPC商人被围得水泄不通，这两个家伙，一个是专卖扫帚，一个专营黑框眼镜。《哈利波特》对于魔法这个陈旧主题的推动作用，连最新的全息网游大作“平行世界”也未能免俗。</p>
+                <p>这两个NPC，借着《哈利波特》标准造型，将新生的玩家狠狠地宰了两刀。要知道，新生的玩家系统一共就增送五十个铜币，但这两样毫无用处的装饰，却要每样售价125，加起正好250。虽如此，玩家热情不减，拼博一天，只为这250而努力。整个法师学院里就到处都是拖着长袍，架着黑框眼镜，手舞着扫把的玩家穿梭其中了。】</p>
+                <p>杜珞宁在异界的崭露头角，她选择的正是前世大神作家蝴蝶蓝的经典作品《网游之近战法师》！</p>
+                <p>蝴蝶蓝的作品描写细腻，人物活灵活现、有血有肉，将网文写出了深刻的内涵。这里的小说太差，《全职高手》祭出来太欺负人了，杜珞宁于是选择了这本《网游之近战法师》。</p>
+                <p>这个世界虽然表面看来与前世截然不同，但实际上差不了多少。唯一差别较大的大概就是语言方面。</p>
+                <p>这个世界的通用语正是汉语，而九州，则对应九种不同的方言。如青州的方言是英语，冀州的方言是日语。前世的那些世界名著、中国名著，在九州也诞生了一两部，大师的思想，即使在不同的时空，也能碰撞出灵感的火花。</p>
+                <p>在这个世界，《哈利波特》出自一位青州作家之手，作为开山怪创建了魔法这个主题，同样引起了轰动，一时风头无两。让人惋惜的是，因为后面的作品太废，比起开山鼻祖《哈利波特》来说不值一提，魔法主题渐渐衰落，到现在几乎看不见以魔法为主题的书了。</p>
+                <p>几个小时后，杜珞宁站起身，此时已是大中午，阳光照射进出租屋，把电脑屏幕都照得绚烂。而星辰书院死气沉沉的游戏分类，也多出了一本新书，名叫《网游之近战法师》。</p>
+            </div>
+        </div>
+        <div id="nav2">
+            <a href="1.html" class="button right">上一章</a>
+            <a href="../book/1.html" class="button right">目录</a>
+            <a href="3.html" class="button">下一章</a>
+        </div>
+    </div>
+</body>
+</html>
