@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院3.0</title> 
+	<link rel="stylesheet" href="../css/chapter.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="../js/search.js"></script> 
+	<link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" /></a>
+			<a href="../index.html"><h1>星辰书院</h1></a>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+		<li><a href="../book/9.html">妖灵记</a></li> 
+		<li><a href="../book/4.html">杜珞宁传</a></li> 
+		<li><a href="../book/5.html">神兽学院</a></li> 
+		<li><a href="../book/1.html">文娱之巅</a></li>
+		<li><a href="../book/6.html">社区江湖</a></li> 
+		<li><a href="../book/7.html">子弹轨迹</a></li>
+		<li><a href="../book/8.html">MAGIC WORLD</a></li> 
+		<li><a href="../book/2.html">上仙，时代变了</a></li> 
+		<li><a href="../book/3.html">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+				setTimeout("document.querySelector(\"#list\").style.display=\"none\"",99);
+	        };
+	    }
+	</script>
+    <div id="background"></div>
+    <div id="bookcase">
+        <div id="book">
+            <h2>C-5 新量子计算机</h2>
+            <div id="info">
+                <span style="color: rgba(0,0,0,.4);">小说：<a href="../book/11.html">层世界</a></span>
+                <span style="color: rgba(0,0,0,.4);">作者：<a href="../writer/4.html">张子辰</a></span>
+            </div>
+            <div id="text">
+                <p>“各位来宾们好，我是IUI主席Turin Helen，向全体在场人员，以及此次参与全球线上直播的在场3.2亿观众，问好。”</p>
+                <p>“国际信息学联合会第16次学界成果讨论会即将召开，所有代表，欢迎参加IUI（International Union of Information）的最前沿成果发表会。”</p>
+                <p>“现在是公元2051年9月20日，在地日二号拉格朗日点的新国际空间站主大厅，会议将在9时正式开始。”</p>
+                <p>“本次会议将进行约96小时，在此期间，将会有33名发言人进行成果演讲，经过学术界权威讨论过的前沿理论，很有可能会改写信息学基础。”</p>
+                <p>“欢迎来到信息学最大的盛会，各位专家们！”</p>
+                <p>在会议即将结束时，Pasli溜进了会场，在直播间陡增的4亿观众，全世界的注视下，他登上了中央台。</p>
+                <p>“各位来宾们好，我是来自亚洲的ParseY Pasli。”代表们一片茫然，Pasli缓步走上台，“我没有做申请，但其实很荣幸能在这里，NISS的中央台上，参与IUI的第16次成果讨论会。我也要发布自己的成果。”</p>
+                <p>“2035年当人类第一次研发出量子处理器的时候，我们认为人类的信息技术已经达到了顶峰，每秒千兆次的运算量，对于几乎所有的家用，商用，军用设备都已经满足了。”</p>
+                <p>“但是，当我们着手更大量级的运算时，一个问题出现了。”</p>
+                <p>“这是由我妹妹制作的宇宙Online项目，她与我协助完成了软件的绝大部分内容，请看显示屏。”</p>
+                <p>“我现在换上刚买来的最新处理器，效率是10^25次计算每秒，然后，接入软件，运行。”</p>
+                <p>“让我们看一下它的成果：没错！10秒钟加载十万亿分之一！这效率着实感人，请注意，宇宙Online使用单原子模拟，一次更新计算10^80个原子的引力，动量，以及粒子轨迹跟踪，每次运算量经计算为约10^81次，量子计算机需要的时间长至宇宙尽头！”</p>
+                <p>“各位是不是认为这种量级的项目完全是不可能的？那么再换上新量子处理器。”</p>
+                <p>在换系统时，Pasli如是说道。</p>
+                <p>“之所以称其为新量子，是因为相较于传统的量子计算依赖的量子不确定性，新量子计算机直接运用量子本身，通过实时控制粒子群的运动，以场波动的形式向外扩散信息，波的叠加即为加法，衰减即为减法，这就是计算结果的来源。”</p>
+                <p>“我编写了一个程序，用于控制机器编码粒子群的位移，以及解析返回的信息，新量子的唯一缺点是需要极其灵敏的接收设备接受运算结果，并换算成对应的二进制值，其计算过程是在一个普朗克时间里完成的。”</p>
+                <p>“这个程序本身是在运算结束后进行，效率足以以正常游戏30fps的速度，模拟整个宇宙！”</p>
+                <p>软件开启，代表们都被眼前这个绚丽的宇宙惊叹到了。</p>
+                <p>“是真的宇宙......太美丽了。”</p>
+                <p>“紫外线波段绝对是绝美的图画，真的，可见光亦如此......”</p>
+                <p>“当然，新量子计算机，如各位所见，需要高效冷却设备以控制粒子的运动，通常情况下，我们需要大概10^-10K的超低温，才能保证计算精度小于可接受范围。”                </p>
+                <p>“这类计算机其实并不适合大规模的数据存储，因为不确定性，粒子随时可能发生隧穿，衰变，位移等，一般来说，10^10GB的数据量会在100年内准确性下降24.7%，但如果保证冷却系统的稳定运行，利用激光控制，可以缩至0.78%左右。”</p>
+                <p>“但对于这类量大而不过多要求准确性的模拟，新量子计算机就足以胜任。而且，”Pasli抱起手中的一个约1立方分米大小的盒子，“这就是计算机的计算机的全部元件，计算就在这中心的1立方厘米范围内，由数百个激光器操控着10^27个电子，进行着极快的波动，信息随涟漪向外扩散，触碰到环状接收器，在经过校准后，投射到外显示器上。”</p>
+                <p>“如果按照您的意思，”主席问道，“那么按照一个普朗克时间的尺度，只要计算用粒子够多，比如10^23，一瓶水，效率能达到10^66次每秒......极度疯狂。”</p>
+                <p>“这个效率也就是计算机的终极，因为小于普朗克尺度的时间不存在，计算也无从谈起。”</p>
+                <p>“太绝妙了。”代表们说道。</p>
+                <p>“我现在提议，使ParseY Pasli加入IUI代表团，成为其第11位正式成员，第12909位正式会员。”</p>
+                <p>代表们举起了手，全票通过。</p>
+                <p>“成功！”Pasli鞠了躬后，走下了台。</p>
+            </div>
+        </div>
+        <div id="nav2">
+            <a href="15.html" class="button right">上一章</a>
+            <a href="../book/11.html" class="button right">目录</a>
+            <a href="17.html" class="button">下一章</a>
+        </div>
+    </div>
+</body>
+</html>

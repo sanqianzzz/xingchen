@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院3.0</title> 
+	<link rel="stylesheet" href="../css/chapter.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="../js/search.js"></script> 
+	<link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" /></a>
+			<a href="../index.html"><h1>星辰书院</h1></a>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+		<li><a href="../book/9.html">妖灵记</a></li> 
+		<li><a href="../book/4.html">杜珞宁传</a></li> 
+		<li><a href="../book/5.html">神兽学院</a></li> 
+		<li><a href="../book/1.html">文娱之巅</a></li>
+		<li><a href="../book/6.html">社区江湖</a></li> 
+		<li><a href="../book/7.html">子弹轨迹</a></li>
+		<li><a href="../book/8.html">MAGIC WORLD</a></li> 
+		<li><a href="../book/2.html">上仙，时代变了</a></li> 
+		<li><a href="../book/3.html">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+				setTimeout("document.querySelector(\"#list\").style.display=\"none\"",99);
+	        };
+	    }
+	</script>
+    <div id="background"></div>
+    <div id="bookcase">
+        <div id="book">
+            <h2>C-6 第二世界</h2>
+            <div id="info">
+                <span style="color: rgba(0,0,0,.4);">小说：<a href="../book/11.html">层世界</a></span>
+                <span style="color: rgba(0,0,0,.4);">作者：<a href="../writer/4.html">张子辰</a></span>
+            </div>
+            <div id="text">
+                <p>“要去沙盒Online亚洲部？是已经云端运行了来着。”Pasy说道。</p>
+                <p>“是啊，科学院这几天放假，刚好过去。”</p>
+                <p>“那要一起去吗？”</p>
+                <p>“一起吧。”</p>
+                <p>“走真空磁导的话，15分钟，还好，是在离家东南方向600千米处。”</p>
+                <p>“真应该感谢发明真空磁导那个人，否则乘其它东西不知道要多贵多久。”</p>
+                <p>“六倍音速，这可比得上21世纪初的顶尖战机了。”</p>
+                <p>两人出了门，去向最近的磁导线枢纽。</p>
+                <p>“欢迎来到亚洲磁导线节点N120-2033，请选择前往的节点”</p>
+                <p>“让我看看，是N102-2025是吧......”</p>
+                <p>“已规划轨道，请至节点第5层，发出点编号T-102-5-1E，总计3次换线，换线过程需承受较大加速度，请注意。”</p>
+                <p>两人登上车，密封阀门关闭，胶囊型的客舱在磁轨的导引下，穿过极长的玻璃轨道。</p>
+                <p>“欢迎来到点城，这里是世界最大的交通传输枢纽，即将在这里进行第一次换轨，接入东部线R-E1190号轨道，全程319千米，即将进行减速，预计加速度为3G。”</p>
+                <p>磁轨的磁极开始反转，我们整个座椅也调转了过来以应对减速。</p>
+                <p>换轨的过程是漫长的，前面不知道有多少人在排队，又不知道什么时候轨道需要例行检查保证气压......</p>
+                <p>我们于是在缓缓的移动中，领略着这座最大的国际运输网络。</p>
+                <p>由中心控制点放射的数个节点站，负责接收每时每刻运行在GOTS（Global Object Teleport System，全球物体传送系统）的近百万件物品</p>
+                <p>上万个分拣节点快速地将所有物品经过标准包裹，投入对应的磁轨，最长的磁轨——赤道线，每天能有近901万件物品在这条线上传输，16条线并行运行，通过实时调控，能做到256件标准舱的不影响传输。</p>
+                <p>最令我们惊叹的是换轨系统，长3千米的转换线路，要在舱体3秒的通过时间里，转动至少120度，将轨道接入新的线路。</p>
+                <p>当舱体即将通过的2秒前，控制系统立即驱使着机械转动，柔性磁轨开始弯曲，玻璃通道在这里换为合金结构以适应变形。</p>
+                <p>为了应对可能出现的轨道冲突问题，IUE（国际工程学联合会International Union of Engineering）专门设计了庞大的冗余保护机制，一旦舱体间隔小于设定的7秒，转换系统便无法及时调回，导致碰撞，这通常是灾难性的，因此，IUM所设计的断轨技术，通过关闭沿线的磁导，快速减速，所以，现在碰撞事故很少见，坚固的复合材料舱体也能抵御大部分冲击。</p>
+                <p>到我们了，在经历了上述过程后，我们来到了东部线，这319千米长的线路上，尽是群山与森林，满目翠绿，穿梭于密林之中，我们又一次见证了世界的奇妙。</p>
+                <p>“终于到达Online亚洲部了，让我看看，沙盒服务器是在......哦中心区？他们还挺重视的嘛......”</p>
+                <p>“欢迎，创作者。”当Pasli踏入控制室的时候，在场的人如是说道。</p>
+                <p>“过奖了，各位头号玩家们！”Pasli看向站在中间的那个人。“Turin主席，你也来了？”</p>
+                <p>“啊是啊，毕竟这是人类第一个上线的虚拟世界，对了，Pasy的宇宙Online现在怎么样了？”</p>
+                <p>“正在debug,debug,debug......”Pasy瞬间颓了下来。</p>
+                <p>“哈，好了，现在是时候开启游戏了！”</p>
+                <p>新量子计算阵列开始全功率运行，此次使用的粒子是光子，共使用10^45个，粒子禁锢技术在物理学界的帮助下，变得更为先进。</p>
+                <p>冷却系统调至10^-12K，以应对光子不受控制的位移，这是目前人类达到过的最低温度。</p>
+                <p>世界开始生成，10秒后，全部完毕，玩家出生点范围内区块数量设定为2^32个，数据量达到了10^15GB存储在专门的占地1万平方米的存储器阵列下，然后，光照，粒子模拟开始。</p>
+                <p>显示屏上，玩家出现，眼前是一片开阔的平原，清晨的阳光缓缓照亮大地，微风拂面（这是系统给出的气流模拟报告），树木虽是方块，但可以清晰地感受到它内部的生命活动，那每一株小草，随风摇荡，似乎一切都是那么的美好。</p>
+                <p>“这就是虚拟世界吗？太美妙了......”“真是一个自由的天地啊......”</p>
+                <p>所以，欢迎来到沙盒Online，全世界最大的虚拟沙盒世界！在这里长宽达2^63格的世界里，自由创造吧！</p>
+                <p>这就是，第二世界，一个崭新的天地。</p>
+            </div>
+        </div>
+        <div id="nav2">
+            <a href="16.html" class="button right">上一章</a>
+            <a href="../book/11.html" class="button right">目录</a>
+            <a href="18.html" class="button">下一章</a>
+        </div>
+    </div>
+</body>
+</html>

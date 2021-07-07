@@ -100,7 +100,6 @@ a {
 }
 #book {
     background: #fff;
-	height: 800px;
     padding: 20px 25px 0px;
     width:900px;
 }
@@ -175,8 +174,7 @@ a.button {
 }
 #chapter {
     width:900px;
-    height: 400px;
-    /* border:1px solid black; */
+    padding-bottom: 50px;
     margin-top:50px;
 }
 .volume {

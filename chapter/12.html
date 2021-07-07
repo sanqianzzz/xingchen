@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>星辰书院3.0</title> 
+	<link rel="stylesheet" href="../css/chapter.css">
+	<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+	<script src="../js/search.js"></script> 
+	<link rel="icon" href="../img/logo.png" type="image/x-icon">
+</head> 
+<body> 
+	<div id="nav">
+		<div class="logo">
+			<a href="../index.html"><img src="../img/logo.png" /></a>
+			<a href="../index.html"><h1>星辰书院</h1></a>
+		</div>
+		<div id="search"> 
+		</div>
+	</div>
+    <ul id="list"> 
+		<li><a href="../book/9.html">妖灵记</a></li> 
+		<li><a href="../book/4.html">杜珞宁传</a></li> 
+		<li><a href="../book/5.html">神兽学院</a></li> 
+		<li><a href="../book/1.html">文娱之巅</a></li>
+		<li><a href="../book/6.html">社区江湖</a></li> 
+		<li><a href="../book/7.html">子弹轨迹</a></li>
+		<li><a href="../book/8.html">MAGIC WORLD</a></li> 
+		<li><a href="../book/2.html">上仙，时代变了</a></li> 
+		<li><a href="../book/3.html">小学生奇幻冒险之天地宝鉴</a></li>
+    </ul> 
+	<script>
+		window.onload = function () {
+	        var inputs = document.querySelector("input");
+	        inputs.onfocus = function () {
+				var str = document.getElementById("txt").value;
+				//if(str!="")
+	            	document.querySelector("#list").style.display="block";
+	        };
+	        inputs.onblur = function () {
+				setTimeout("document.querySelector(\"#list\").style.display=\"none\"",99);
+	        };
+	    }
+	</script>
+    <div id="background"></div>
+    <div id="bookcase">
+        <div id="book">
+            <h2>C-1 哥妹俩</h2>
+            <div id="info">
+                <span style="color: rgba(0,0,0,.4);">小说：<a href="../book/11.html">层世界</a></span>
+                <span style="color: rgba(0,0,0,.4);">作者：<a href="../writer/4.html">张子辰</a></span>
+            </div>
+            <div id="text">
+                <p>在吗？Palpha?</p>
+                <p>帮我打开日记录，调至视频日记。</p>
+                <p>已开始录像——</p>
+                <p>这里是ParseYPasli。</p>
+                <p>现在是公元2055年9月26日13时26分，我在这里开始我的自述。</p>
+                <p>我生于2039年9月26日13时，现在是我人生的第16年。</p>
+                <p>家里父母因病去世了，现在我唯一的血亲是14岁的妹妹ParseYPasy。</p>
+                <p>Palpha是我开发的智能助手，我现在是在国家科学院工作。妹妹没有到法定年龄，必须要上完初中才能去科学院。</p>
+                <p>我主攻信息学，妹妹擅长宇宙学。</p>
+                <p>怎么说呢，其实我们两个完全是可以不用上这么长时间学的，我自己是6岁时就开始学信息了，到现在10个年头，我自己认为应该是权威了。</p>
+                <p>妹妹更强，她小学时接触了宇宙，从此一发不可收拾，到现在几乎每份顶级期刊上都会有她的论文。</p>
+                <p>外界对我们两个十分关注，当然平常我们一个泡在科学院做研究，一个在寄宿制学校，不与外界联系，两人的生活我感觉还是能保持在稳定态。</p>
+                <p>我简要说一下我们两个的成果，我，是重构了量子计算机，现行量子设备的效率实在太低，于是我在刚毕业时就发布了第一台原型机与配套论文，详细记述了新架构相较于原版的极大优势，它的效率是当今最快的2兆倍，约等于现行量子计算机相较于登月用的设备</p>
+                <p>Pasy是虚无理论的创立者，自从她12岁发布以来，就不断收到学界的成功验证，这套理论让学界第一次接近了宇宙的本质，它近乎完美解释了宇宙微观宏观的运行法则，很多人来信要求与这位小女孩谈谈学术，但基本上都被她拒绝了。</p>
+                <p>我们，嗯，就如大众所说，是确确实实的天才，妹妹在学校也是，没几个理科老师愿意继续教她了————早会了，甚至比老师懂得多。</p>
+                <p>我最近编了个游戏，在云端公测，论坛里很快就有人想要实现它了，将其作为公共项目发布，他们计划做出意识存储算法，让玩家能够进入这个世界。</p>
+                <p>据说如果成功，那它将是人类第一个制作的真模拟世界，也就是说，我们自己创造了一个小宇宙，一个能任我们编辑的世界。</p>
+                <p>好了，大致就是这些了，Palpha，帮忙发布到世界论坛上，作为今日的动态发布。</p>
+                <br />
+                <p>在吗？Palpha?</p>
+                <p>帮我打开日记录，调至视频日记。</p>
+                <p>已开始录像——</p>
+                <p>这里是ParseYPasy，ParseYPasli的妹妹。</p>
+                <p>现在是公元2055年9月26日13时36分，我在这里开始我的自述。</p>
+                <p>我生于2041年9月26日13时，比哥哥小刚好2周岁，我目前就读于国立二初中，准备进初三年级，9个月后参加中考。</p>
+                <p>其实我个人感觉，我们这一家名字开头都是Pa，倒也在各方面都挺相似的。</p>
+                <p>一样的天才属性，性格都比较孤僻（这也是为什么我要用这种方式自述），然后，两个人都互相喜欢着。</p>
+                <p>说实话我不用参加中考，到那天我最多去一趟物理和数学考试，刷个210分，其他真没什么要看的，嘛，毕竟我是学宇宙学的，刚好数理都齐了。</p>
+                <p>至于文科，我反正以后直接跟哥哥去科学院了，到时候写写小文章，英文的话大概就用一年学好了，都没什么问题。</p>
+                <p>其实我感觉两个人倒也有些许好处，你想嘛，回家是有机器人做饭，娱乐节目就是互相做项目，我给他展示真实模拟的宇宙图景，他给我的宇宙模拟器优化效率，他的新量子设备挺好用的，效率不知高了多少，哈。</p>
+                <p>学校里倒是有些人愿意与我一起的，那是在体育课上，我毕竟是天天泡宿舍里做研究，这种800米我是真承受不了，最多就是和他们几个打羽毛球。</p>
+                <p>为什么羽毛球会掉下来？因为有羽毛球场啊！开个玩笑，我研究场论差不多1个月了，现在感觉还行，就是现行理论实在太少，没什么可参考的。</p>
+                <p>总之就是这些，好了，我要和哥哥去学校开生日趴了，老师们都要去呢。</p>
+                <p>好了，大致就是这些了，Palpha，帮忙发布到世界论坛上，作为今日的动态发布。</p>
+            </div>
+        </div>
+        <div id="nav2">
+            <a href="11.html" class="button right">上一章</a>
+            <a href="../book/11.html" class="button right">目录</a>
+            <a href="13.html" class="button">下一章</a>
+        </div>
+    </div>
+</body>
+</html>
