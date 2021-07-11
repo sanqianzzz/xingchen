@@ -95,7 +95,7 @@ a {
 }
 #bookcase {
 	margin: 0 auto;
-	width:954px;
+	width:950px;
 	padding:5px;
 }
 #book {
@@ -113,8 +113,6 @@ a {
     margin-top: 180px;
 	padding: 0px;
     background: #fff;
-    border: 2px solid rgba(0,0,0,.1);
-    border-bottom: none;
     height: 509px;
     width:950px;
 }
@@ -174,7 +172,7 @@ a.button {
 }
 #chapter {
     width:900px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     margin-top:50px;
 }
 .volume {
