@@ -111,10 +111,9 @@ a {
 }
 #box {
     margin-top: 180px;
-	padding: 0px;
+	padding: 0px 0px 40px 0px;
     background: #fff;
     width:950px;
-    padding-bottom: 40px;
 }
 #bookcover img {
     width:135px;
